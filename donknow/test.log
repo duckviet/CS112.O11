@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  30 SEP 2023 09:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  29 SEP 2023 22:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,26 +499,26 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -590,7 +590,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 38.
  (test.out) (test.out)
 \@outlinefile=\write4
 \openout4 = `test.out'.
@@ -614,92 +614,111 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<BT/UIT.jpg, id=3, 903.375pt x 903.375pt>
-File: BT/UIT.jpg Graphic file (type jpg)
-<use BT/UIT.jpg>
-Package pdftex.def Info: BT/UIT.jpg  used on input line 50.
-(pdftex.def)             Requested size: 271.01459pt x 271.01459pt.
- [1
-
-{C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./BT/UIT.jpg>]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 87.
-
-Overfull \hbox (77.64975pt too wide) in paragraph at lines 130--144
-[]| \T5/cmr/m/n/14 Suy ra: $[]$ | $\OMS/cmsy/m/n/14.4 ,$ $[]$ 
- []
+LaTeX Font Info:    Calculating math sizes for size <16.79996> on input line 40.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.150     \item $
-                  2+4*n $(G) [1]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.79996> not available
+(Font)              size <17.28> substituted on input line 40.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16.79996> not available
+(Font)              size <17.28> substituted on input line 40.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.79996> not available
+(Font)              size <17.28> substituted on input line 40.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <16.79996> not available
+(Font)              size <17.28> substituted on input line 40.
+
+[1
+
+{C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<bai1.png, id=10, 361.35pt x 218.124pt>
+File: bai1.png Graphic file (type png)
+<use bai1.png>
+Package pdftex.def Info: bai1.png  used on input line 43.
+(pdftex.def)             Requested size: 252.94327pt x 152.68573pt.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 48.
+<bai4.png, id=12, 427.05pt x 369.891pt>
+File: bai4.png Graphic file (type png)
+<use bai4.png>
+Package pdftex.def Info: bai4.png  used on input line 62.
+(pdftex.def)             Requested size: 213.52448pt x 184.94504pt.
+ [2 <./bai1.png> <./bai4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
-[3] [4]
-<BT/bangbai7.png, id=41, 405.369pt x 154.395pt>
-File: BT/bangbai7.png Graphic file (type png)
-<use BT/bangbai7.png>
-Package pdftex.def Info: BT/bangbai7.png  used on input line 311.
-(pdftex.def)             Requested size: 283.75636pt x 108.07576pt.
- [5 <./BT/bangbai7.png>]
-<BT/bangbai8.png, id=49, 404.055pt x 153.081pt>
-File: BT/bangbai8.png Graphic file (type png)
-<use BT/bangbai8.png>
-Package pdftex.def Info: BT/bangbai8.png  used on input line 362.
-(pdftex.def)             Requested size: 282.83656pt x 107.15596pt.
- [6 <./BT/bangbai8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+<bai5.png, id=29, 350.838pt x 385.002pt>
+File: bai5.png Graphic file (type png)
+<use bai5.png>
+Package pdftex.def Info: bai5.png  used on input line 123.
+(pdftex.def)             Requested size: 175.41856pt x 192.50052pt.
+[3 <./bai5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+ []
+
+[4] [5]
+<bai9.png, id=46, 415.224pt x 333.756pt>
+File: bai9.png Graphic file (type png)
+<use bai9.png>
+Package pdftex.def Info: bai9.png  used on input line 214.
+(pdftex.def)             Requested size: 207.61148pt x 166.87758pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+[6 <./bai9.png>]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the test.maf file.
 \openout3 = `test.maf'.
 
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the test.log file.
 
-[7] [8] (test.aux)
+[7] (test.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.48004pt have occurred.
+
 Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13635 strings out of 475248
- 215064 string characters out of 5759229
- 1930785 words of memory out of 5000000
- 34968 multiletter control sequences out of 15000+600000
- 571245 words of font info for 54 fonts, out of 8000000 for 9000
+ 13638 strings out of 475248
+ 214902 string characters out of 5759229
+ 1927785 words of memory out of 5000000
+ 34973 multiletter control sequences out of 15000+600000
+ 570975 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,107p,312b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxsl10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb>
-Output written on test.pdf (9 pages, 239205 bytes).
+ 108i,10n,107p,312b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr17.pfb>
+Output written on test.pdf (7 pages, 610922 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,13 +34,65 @@
 \title{Truonw Cong Nghe Thong Tin}
 \author{duc viet}
 \date{may 2022}
-
 \begin{document}
-\maketitle
-
+\begin{titlepage}
+    %Begin: Bìa%
+    \begin{center}
+        \vspace{5pt}
+        \textbf{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH}
+        \vspace{5pt}
+        \textbf{TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN}
+    \end{center}
+    
+    \vspace{5pt}
+    
+    \begin{center}
+        \includegraphics[scale=0.3]{BT/UIT}
+        \vspace{10pt}
+        \fontsize{15pt}{15pt}\selectfont
+    
+        \begin{flushleft}
+        \fontsize{15pt}{15pt}\selectfont  
+        \textbf{\textsl{MÔN HỌC:}~~~{PHÂN TÍCH VÀ THIẾT KẾ THUẬT TOÁN}}
+        \end{flushleft}
+    \end{center}
+    
+    
+    \begin{flushleft}
+        \fontsize{15pt}{15pt}\selectfont  
+        \textbf{\textsl{ĐỀ TÀI:}~~~~~~~{BÀI TẬP NHÓM SỐ 1}}
+    \end{flushleft}
+    
+    
+    \vspace{15pt}
+    \textbf{LỚP: CS112.O11}
+    
+    \vspace{10pt}
+    \textbf{Nhóm sinh viên thực hiện:}
+    \begin{tabbing}
+    \hspace{9cm}\=\hspace{3cm}\=\ \kill
+    {\it \textbf{Họ và tên}}\>{\it \textbf{MSSV}}\>\\
+    \begin{bfseries}Nguyễn Hoàng Phúc\end{bfseries}\> \begin{bfseries}22521129\end{bfseries}\\
+    \begin{bfseries}Đoàn Văn Hoàng\end{bfseries}\> \begin{bfseries}22520459\end{bfseries}\\
+    \begin{bfseries}Nguyễn Viết Đức\end{bfseries}\> \begin{bfseries}22520273\end{bfseries}\\
+    \end{tabbing}
+    %End: Bìa%
+    \vspace{10pt}
+    \end{titlepage}
 \newpage
 \section*{Bài 1}
-\includegraphics[scale=0.7]{bai1}
+
+\vspace{5mm}
+Câu a. 
+\tab \(\text{S} = 1 + 3 + 5 + 7 +\dots + 999 = [\frac{999 - 1}{2} + 1]\frac{1+999}{2} = 250000\)
+
+\vspace{5mm}
+Câu b. 
+\tab \(\text{S} = 2 + 4 + 8 + \dots + 1024 = \sum\limits_{i=1}^{10}{2^i} = \sum\limits_{i=0}^{10}{2^i} - 1 = 2046 \)
+
+\vspace{5mm}
+Câu c. 
+\tab \(\sum\limits_{i=3}^{n+1}{1} = n+1-3+1 = n-1\)
 
 
 \vspace{5mm}
@@ -53,13 +105,44 @@ Câu e.
 \tab \tab = \sum\limits_{i=0}^{n-1}{i^2} + \sum\limits_{i=0}^{n-1}{i} = \frac{1}{3}(n-1)^3 + \frac{1}{2}(n-1)^2
 \)
 
+\vspace{5mm}
+Câu f. 
+\tab \(\sum\limits_{j=3}^{n+1}{i} = \sum\limits_{i=1}^{n+1}{i} - \sum\limits_{i=1}^{2}{i} = \frac{(n+1)(n+2)}{2} - 3 = \frac{1}{2}x^2 + \frac{3}{2} - 2 \)
 
 \vspace{5mm}
 Câu i. 
 \tab \(\sum\limits_{j\in (2,3,5)}^{ }{j^2 + j} \)
 
+\section*{Bài 2}
+
+- Xét vòng while ngoài:
+Ta có:
+\begin{itemize}
+    \item $ 2+2n $(G)
+    \item $ n + 1 $(SS)
+\end{itemize}
+
+Gọi $\alpha_{i}$ là số lần lặp lại vòng while trong.\\
+Ta có: $\alpha_{i}$ là số con i chạy từ $ 1 -> i^2$, bước nhảy 1 \\
+\(\Rightarrow \alpha_{i} = i^2 \)
+
+
+\tab Suy ra:
+\(
+\begin{cases}
+    \text{G(n) = } & 2 +2n +  \sum\limits_{i=1}^{n}2\alpha_{i} \\
+    \text{SS(n) = } &  n + 1 + \sum\limits_{i=1}^{n}(\alpha_{i}+1)
+\end{cases}
+\)
+\tab $\Leftrightarrow $
+\(
+\begin{cases}
+    \text{G(n) = } & 2 +2n +  \frac{n(n+1)(2n+1)}{3} \\
+    \text{SS(n) = } &  2n + 1 + \frac{n(n+1)(2n+1)}{6}
+\end{cases}
+\)
 \section*{Bài 4}
-\includegraphics[scale=0.5]{bai4}
+% \includegraphics[scale=0.5]{BT/bai4}
 
 - Xét vòng while ngoài:
 Ta có:
@@ -120,7 +203,7 @@ Xét $\alpha_{i}$ ta có:
 
 
 \section*{Bài 5}
-\includegraphics[scale=0.5]{bai5}
+% \includegraphics[scale=0.5]{BT/bai5}
 
 - Xét vòng while ngoài:
 Ta có:
@@ -210,8 +293,110 @@ Xét $\beta_{i}$ ta có:
 \)
 
 \newpage
+
+\section*{Bài 7}
+- Xét vòng while ngoài:
+Ta có:
+\begin{itemize}
+    \item $ 2+2n $(G)
+    \item $ n + 1 $(SS)
+\end{itemize}
+
+Gọi $\alpha_{i}$ là số lần lặp lại vòng while trong.\\
+Ta có: $\alpha_{i}$ là số con i chạy từ $ 1 -> x$, bước tăng 1 \\
+\(\Rightarrow \alpha_{i} = x = (n-i)(i-3n) \)
+
+Gọi $\beta_{i}$ là số lần lệnh count = count - 2 được thực hiện \((i \geq 2y \Leftrightarrow i \geq 2i - 4n )\)\\
+Xét bảng dấu:\\
+\includegraphics[scale=0.7]{BT/bangbai7}
+
+\(\text{Lệnh } count = count - 2 \text{ được thực hiện khi } i \text{ chạy từ } 2n -> 3n -1\)
+
+\tab $\Leftrightarrow \alpha_{i} = $
+\(
+\begin{cases}
+    (n-i)(i-3n) & n < i < 3n \\
+    0 & \text{, còn lại}
+\end{cases}
+\)
+\vspace{10mm}
+
+\tab \(\beta_{i} = 3n -1-2n+1 = n\)
+\vspace{20mm}
+
+\tab Ta có:
+\(
+\begin{cases}
+    \text{G(n) = } & 2 + 16n +  \sum\limits_{i=1}^{4n}(\alpha_{i} + \beta_{i}) \\
+    \text{SS(n) = } &  4n + 1  \sum\limits_{i=1}^{4n}(2\alpha_{i}+1)
+\end{cases}
+\)
+\vspace{20mm}
+
+\tab $\Leftrightarrow $
+\(
+\begin{cases}
+    \text{G(n) = } & 2 + 16n +  \sum\limits_{i=n+1}^{3n-1}[(n-i(i-3n)) + n] \\
+    \text{SS(n) = } &  8n + 3 + 2\sum\limits_{i=n+1}^{3n-1}[(n-i)(i-3n)]
+\end{cases}
+\)
+\vspace{20mm}
+
+\section*{Bài 8}
+Gọi $\alpha_{i}$ là số lần lặp lại của vòng while trong,\\
+\tab $\beta_{i-}$ là số lần lệnh $count = count - 1$ được thực hiện\\
+\tab $ \beta_{i+}$ là số lần lệnh $count = count + 1$ được thực hiện\\
+\tab $\gamma_{\acute{i}}$ là số lần $ y > 0$
+
+\vspace{15mm}
+\tab Suy ra::
+\(
+\begin{cases}
+    \text{G(n) = } & 2 + 12n +  \sum\limits_{i=1}^{3n}(\alpha_{i} + \beta_{i-}) +  \beta_{i+}\\
+    \text{SS(n) = } &  4n + 1  \sum\limits_{i=1}^{3n}(2\alpha_{i}+1) + \gamma_{\acute{i}}
+\end{cases}
+\)
+
+\vspace{15mm}
+Bảng xét dấu:\\
+\includegraphics[scale=0.7]{BT/bangbai8}
+
+\(=>\gamma_{\acute{i}} = 2n - (n+1) +1 = 2n \\
+\tab \beta_{i+} =  2n - 1 - n + 1 = n \text{(vì khi y > 0 thì mới tiếp tục xét ) x > 0} \)
+
+\vspace{10mm}
+\tab $\alpha_{i} =$
+\(
+\begin{cases}
+    2n - i & \text{, khi } 1 \leq i \leq 2n-1 \\
+    0 & \text{, còn lại}
+\end{cases}
+\)
+
+\vspace{10mm}
+-Xét $\beta_{i-}$:\\
+\tab \(n \leq j \leq x \Leftrightarrow n \leq j \leq 2n - i\\
+\tab \text{.Nếu } 2n-i \geq n \Leftrightarrow  1 \leq i \leq n \text{ thì } \beta_{i-} \geq 1\)
+
+\vspace{10mm}
+\tab $\Rightarrow \beta_{i-} = $
+\(
+\begin{cases}
+    n + 1 - i & \text{, khi } 1 \leq i \leq n \\
+    0 & \text{, còn lại}
+\end{cases}
+\)
+
+\vspace{20mm}
+\tab Vậy:
+\(
+\begin{cases}
+    \text{G(n) = } & 2 + 12n +  \sum\limits_{i=1}^{2n-1}(2n-i)  + \sum\limits_{i=1}^{n}(n+1-i) + n\\
+    \text{SS(n) = } &  11n + 1 + 2\sum\limits_{i=1}^{2n-1}(2n-i)
+\end{cases}
+\)
 \section*{Bài 9}
-\includegraphics[scale=0.5]{bai9}
+% \includegraphics[scale=0.5]{BT/bai9}
 
 - Xét vòng while ngoài:
 Ta có:
