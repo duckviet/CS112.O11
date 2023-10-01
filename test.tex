@@ -580,12 +580,12 @@ thực hiện gán, tức là\\  if$(idx != -1)$ đúng hay n lẻ.\\
 \begin{cases}
     \text{G(n) = } &  3 + 2n + \sum\limits_{i=1}^{n}{(2n + \beta_{i})}  + \alpha_{idx} \\
 
-    \text{SS(n) = } &  n + 1  + \sum\limits_{i=1}^{n}{(n +  1 + \alpha_{idx})}  + 1
+    \text{SS(n) = } &  n + 1  + \sum\limits_{i=1}^{n}{(n +  1 + \alpha_{i})}  + 1
 \end{cases}
 \)
 
 \vspace{5mm}
-\( \alpha_{i} = 2n \text{ Có 2 phép so sánh trong if với n lần j}\)
+\( \text{Lệnh } (i+j == n+ 1) \text{ thực hiện khi } (i == j) \text{ với mỗi giá trị i chỉ có 1 j thỏa, nên: }\\ \alpha_{i} = n + 1\)
 
 \vspace{5mm}
 \tab \tab  $\Leftrightarrow $
@@ -593,7 +593,7 @@ thực hiện gán, tức là\\  if$(idx != -1)$ đúng hay n lẻ.\\
 \begin{cases}
     \text{G(n) = } &  3 + 2n + \sum\limits_{i=1}^{n}{(2n)}  + 2(n\%2) \\
 
-    \text{SS(n) = } &  n + 1  + \sum\limits_{i=1}^{n}{(3n +  1)}  + 1
+    \text{SS(n) = } &  n + 1  + \sum\limits_{i=1}^{n}{[2(n+1)]}  + 1
 \end{cases}
 \)
 \end{document}

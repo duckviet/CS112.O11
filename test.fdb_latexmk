@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1696130007 "c:/Users/HP/Desktop/lates/test.tex" "test.pdf" "test" 1696130009 0
+["pdflatex"] 1696155103 "c:/Users/HP/Desktop/lates/test.tex" "test.pdf" "test" 1696155105 0
   "BT/UIT.jpg" 1696041951 59170 0b24ad572e894117cc37057420040686 ""
   "BT/bangbai6.png" 1696127477 6988 0751a9d478a429a03437a0fb7313ca76 ""
   "BT/bangbai7.png" 1696039575 11924 a5be055a825dc1e1218ea2da1f3e3d19 ""
@@ -326,12 +326,12 @@
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/vntex/vietnam.sty" 1368738347 2477 91784aa2c9213f74609391e3cae65a13 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/vntex/vncaps.tex" 1368738347 3273 a55ebdb07413d2fea580f210e3c0b252 ""
   "C:/Users/HP/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "c:/Users/HP/Desktop/lates/test.tex" 1696130006 16311 1841908525d384b68cee394ca84500fb ""
-  "test.aux" 1696130008 618 df3f36fba2210d6f72bebd6812a4fb61 "pdflatex"
-  "test.mtc" 1696130007 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "test.mtc0" 1696130007 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "test.out" 1696130008 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "test.tex" 1696130006 16311 1841908525d384b68cee394ca84500fb ""
+  "c:/Users/HP/Desktop/lates/test.tex" 1696155102 16386 d1fcdd7cac416a2ef2c71a32cc84cc12 ""
+  "test.aux" 1696155105 618 df3f36fba2210d6f72bebd6812a4fb61 "pdflatex"
+  "test.mtc" 1696155103 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "test.mtc0" 1696155103 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "test.out" 1696155104 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "test.tex" 1696155102 16386 d1fcdd7cac416a2ef2c71a32cc84cc12 ""
   (generated)
   "test.aux"
   "test.log"

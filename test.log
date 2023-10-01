@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  1 OCT 2023 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.27)  1 OCT 2023 17:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -701,11 +701,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 524--525
  []
 
 [8]
+Overfull \hbox (48.57257pt too wide) in paragraph at lines 588--589
+[]$[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 j \OT1/cmr/m/n/14.4 == \OML/cmm/m/it/14.4 n \OT1/cmr/m/n/14.4 + 1)[](\OML/cmm/m/it/14.4 i \OT1/cmr/m/n/14.4 == \OML/cmm/m/it/14.4 j\OT1/cmr/m/n/14.4 )[][] 
+ []
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the test.maf file.
 \openout3 = `test.maf'.
-
 
 
 Package minitoc(hints) Warning: W0024
@@ -729,7 +732,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,10n,107p,312b,507s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxsl10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnbxti10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr12.pfb>
-Output written on test.pdf (10 pages, 262768 bytes).
+Output written on test.pdf (10 pages, 263138 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
